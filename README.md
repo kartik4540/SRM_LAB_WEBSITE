@@ -55,7 +55,7 @@ Contact Page: Contains contact information and a form for inquiries.
 
 Instructors Page: Lists lab instructors along with their details.
 
-Lab Slot Booking: Allows users to view available slots and book time in the lab.
+Lab Slot Booking: This allows users to view available slots and book time in the lab.
 
 Schedule Page: Displays the lab’s schedule and available slots.
 
