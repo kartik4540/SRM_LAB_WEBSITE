@@ -77,7 +77,7 @@ git clone https://github.com/kartik4540/SRM_LAB_WEBSITE.git
 ![WhatsApp Image 2025-01-31 at 19 33 41_7a4433c1](https://github.com/user-attachments/assets/b2699bf9-a426-4722-af61-426fec864478)
 
 
-> 📌 *Make sure to place screenshots in the `screenshots` folder inside your project directory.*
+
 
 ---
 
@@ -91,10 +91,7 @@ Contributions are welcome! If you’d like to contribute, please follow these st
 
 ---
 
-## 📞 Contact
-For any queries or suggestions, feel free to contact us via the **Contact Page** on the website.
 
----
 
 🚀 Happy Coding! 🎉
 
