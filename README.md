@@ -1,81 +1,100 @@
-SRM Lab Website
+# SRM Lab Website
 
-Project Overview
-This project is a website for SRM Lab that provides essential information about the lab and allows users to book lab slots. The website is organized into different sections that cover contact details, lab specifications, schedules, and a booking slot feature for users to reserve lab time.
+## 🚀 Project Overview
+The **SRM Lab Website** is an interactive platform designed to provide essential information about the lab and enable users to book lab slots efficiently. The website is structured into multiple sections, covering contact details, lab specifications, schedules, and an intuitive booking system.
 
+---
 
+## 📂 Project Structure
+The website is organized into different directories, each containing specific files for various sections of the website.
 
-Project Structure
-The website is organized into several directories, each containing specific files for the different sections of the website:
-
-Folder and File Structure
-
-graphql
-
-Copy code
-
+```
 SRMLAB
-
 ├── contact
-
-│   ├── contact.html # Contact page with lab contact information
-
-│   ├── script.js            # JavaScript for contact form functionality
-
-│   ├── Srmseal.png          # SRM Lab logo or seal
-
-│   └── styles.css           # Styles specific to the contact page
+│   ├── contact.html        # Contact page with lab contact information
+│   ├── script.js           # JavaScript for contact form functionality
+│   ├── Srmseal.png         # SRM Lab logo or seal
+│   └── styles.css          # Styles specific to the contact page
+│
 ├── home
-│   └── index.html           # Homepage with general information about SRM Lab
-
+│   └── index.html          # Homepage with general information about SRM Lab
+│
 ├── instructor
-│   └── instructors.html     # Page with details about lab instructors
-
+│   └── instructors.html    # Page with details about lab instructors
+│
 ├── lab slot
-│   ├── app.py               # Backend script for managing lab slot booking
-
-│   ├── index.html           # Frontend for the slot booking page
-
-│   ├── scripts.js           # JavaScript for handling slot booking logic
-
-│   └── styleindex.css       # Styles specific to the slot booking page
-
+│   ├── app.py              # Backend script for managing lab slot booking
+│   ├── index.html          # Frontend for the slot booking page
+│   ├── scripts.js          # JavaScript for handling slot booking logic
+│   └── styleindex.css      # Styles specific to the slot booking page
+│
 ├── schedule
-│   └── schedule.html        # Page displaying the lab schedule
+│   └── schedule.html       # Page displaying the lab schedule
+│
 └── specification
-    ├── specifications.html  # Page outlining lab specifications
-    ├── script.js            # JavaScript for the specifications page
-    ├── Srmseal.png          # Another copy of SRM Lab seal, if needed for styling
-    └── styles.css           # Styles specific to the specifications page
-Features
+    ├── specifications.html # Page outlining lab specifications
+    ├── script.js           # JavaScript for the specifications page
+    ├── Srmseal.png         # Another copy of SRM Lab seal, if needed for styling
+    └── styles.css          # Styles specific to the specifications page
+```
 
-Homepage: Provides a general introduction to SRM Lab.
+---
 
-Contact Page: Contains contact information and a form for inquiries.
+## 🌟 Features
 
-Instructors Page: Lists lab instructors along with their details.
+✅ **Homepage:** Provides a general introduction to SRM Lab.  
+✅ **Contact Page:** Displays contact details and includes a form for inquiries.  
+✅ **Instructors Page:** Lists lab instructors along with their details.  
+✅ **Lab Slot Booking:** Allows users to view available slots and book lab time.  
+✅ **Schedule Page:** Displays the lab’s schedule and available slots.  
+✅ **Specifications Page:** Outlines detailed specifications of lab equipment and resources.  
 
-Lab Slot Booking: This allows users to view available slots and book time in the lab.
+---
 
-Schedule Page: Displays the lab’s schedule and available slots.
+## 🔧 Usage
 
-Specifications Page: Contains detailed specifications of the lab equipment and resources.
+1️⃣ Clone the repository to your local machine:
+```bash
+git clone https://github.com/kartik4540/SRM_LAB_WEBSITE.git
+```
 
-Usage
+2️⃣ Navigate to the main directory and start the server (if applicable).  
+3️⃣ Open `index.html` in a web browser to explore the SRM Lab website.  
+4️⃣ Ensure that `app.py` is running to enable the slot booking functionality.  
 
-Clone the repository to your local machine.
+---
 
-Navigate to the main directory and start the server (if applicable).
+## 🛠 Technologies Used
 
-Open index.html in a web browser to explore the SRM Lab website.
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Python (Flask/Django) for handling bookings
+- **Database (Optional):** SQLite/MySQL for storing booking information
 
-To enable slot booking functionality, ensure that app.py is running as it provides the backend support for handling slot bookings.
+---
 
-Technologies Used
+## 🖼 Screenshots
 
-HTML, CSS, JavaScript for frontend design and interaction
+![WhatsApp Image 2025-01-31 at 19 33 41_7a4433c1](https://github.com/user-attachments/assets/b2699bf9-a426-4722-af61-426fec864478)
 
-Python (Flask/Django) for backend in app.py (assumed for handling bookings)
 
-[Optional] Database for storing booking information (e.g., SQLite, MySQL)
+> 📌 *Make sure to place screenshots in the `screenshots` folder inside your project directory.*
+
+---
+
+## 📌 Contributing
+Contributions are welcome! If you’d like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`feature-branch`).
+3. Commit your changes.
+4. Push to the branch and submit a pull request.
+
+---
+
+## 📞 Contact
+For any queries or suggestions, feel free to contact us via the **Contact Page** on the website.
+
+---
+
+🚀 Happy Coding! 🎉
 
